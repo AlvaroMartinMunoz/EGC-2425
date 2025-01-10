@@ -18,7 +18,7 @@ services:
     networks:
       - uvlhub_network
     environment:
-      -DJANGO_DEBUG = False
+      -FLASK_DEBUG = False
 
   db:
     container_name: mariadb_container
